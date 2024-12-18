@@ -40,6 +40,6 @@ jobs:
         with:
           name: build-prod
       - name: List files
-        run: ls
+        run: ls -R
       - name: Deploy
         run: echo "Deploying..."
